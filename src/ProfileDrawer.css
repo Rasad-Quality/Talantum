@@ -1,0 +1,80 @@
+/* Your existing styles */
+.textarea1 {
+    width: 96%;
+    margin-top: 10px;
+    min-height: 120px;
+    max-height: 300px;
+    padding: 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2d3748;
+    background: #ffffff;
+    resize: vertical;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.textarea1:focus {
+    border: 2px solid #0BA40F;
+    box-shadow: 0 0 0 3px rgba(11, 164, 15, 0.1);
+}
+
+/* New styles for skills section */
+.skills-container {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.skill-btn {
+    transition: all 0.3s ease !important;
+}
+
+.skill-btn:hover {
+    transform: translateY(-2px) !important;
+}
+
+.skill-btn.selected {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 16px rgba(11, 164, 15, 0.3) !important;
+}
+
+.skill-btn.selected:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 20px rgba(11, 164, 15, 0.4) !important;
+}
+
+/* Animation for skill chips */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.MuiChip-root {
+    animation: slideIn 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 6px;
+    }
+}

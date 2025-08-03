@@ -1,0 +1,98 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sandv{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #0BA40F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.search input{
+    padding: 8px;
+    border: 2px solid #0BA40F;
+    border-radius: 4px;
+}
+.navbarb2{
+    background-color: #0BA40F;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.navbarb2:hover {
+    transform: scale(1.05);
+}
+.navbarb{
+    
+    background-color: #fff;
+    
+    border: none;
+    
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.navbarb:hover {
+    transform: scale(1.05);
+    
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.welcome-message {
+    color: #333;
+    font-weight: 500;
+}
+
+.logout-btn {
+    background-color: #f44336; /* A red color for logout */
+}
+
+.logout-btn:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05); /* Ensure logout button also scales */
+}

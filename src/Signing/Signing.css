@@ -1,0 +1,128 @@
+.mainm{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainer{
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 15px; 
+}
+#welc{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.icons2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.icons3{
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #0BA40F;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 15px;
+    transition: 0.3s 
+}
+
+.icons3:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+
+.picon{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+#or{
+    margin-top: 20px;
+}
+.icon10{
+    position: absolute;
+    left : 600px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#post{
+    position: absolute;
+    left: 600px;
+    top: 420px;
+}
+#pasw{
+    position: absolute;
+    left: 600px;
+    top: 470px;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.emailinput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0BA40F;
+    margin-bottom: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.passwordinput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0BA40F;
+    margin-bottom: 20px;
+}
+.regist{
+    margin-top: 10px;
+}
+.signin{
+    background-color: #0BA40F;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.signin:hover{
+    background-color: hsl(122, 87%, 30%);
+    transform: scale(1.05);
+}
+
+.signuplink{
+    text-decoration: none;
+}
+
+.signuplink:hover{
+    text-decoration: underline;
+}
