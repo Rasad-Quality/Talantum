@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { signUpUser, signInWithGoogle } from "../ReduxToolkit/authSlice";
+import { toast } from "react-toastify";
 
 function SignUp() {
     const [email, setEmail] = useState("");
@@ -19,22 +20,23 @@ function SignUp() {
         dispatch(signUpUser({ email, password }))
             .unwrap()
             .then(() => {
-                window.alert('Sign Up Successful! Please sign in.');
+                toast.success('Sign Up Successful! Please sign in.');
                 navigate('/signin');
             })
             .catch((err) => {
-                alert('Error: ' + err);
+                toast.error('Error: ' + err);
             });
     };
 
     const handleGoogleSignUp = () => {
         dispatch(signInWithGoogle())
             .unwrap()
-            .then(() => {
+            .then((payload) => {
+                toast.success(`Sign Up Successful! Welcome ${payload.displayName || payload.email}`);
                 navigate('/');
             })
             .catch((err) => {
-                alert('Google Sign-Up Error: ' + err);
+                toast.error('Google Sign-Up Error: ' + err);
             });
     };
 
@@ -58,7 +60,7 @@ function SignUp() {
                         <input className="passwordinput" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
                     </div>
 
-                    {error && <p style={{color: 'red'}}>{error}</p>}
+                    
 
                     <p className="regist">Already have an account? <Link className="signuplink" to="/signin">Sign In</Link></p>
                     

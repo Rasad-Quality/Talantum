@@ -6,6 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { signInUser, signInWithGoogle } from "../ReduxToolkit/authSlice";
+import { toast } from "react-toastify";
 
 function SignIn(props){
     const [email, setEmail] = useState("");
@@ -19,11 +20,11 @@ function SignIn(props){
         dispatch(signInUser({ email, password }))
             .unwrap()
             .then((payload) => {
-                window.alert(`Sign In Successful! Welcome ${payload.email}`);
+                toast.success(`Sign In Successful! Welcome ${payload.email}`);
                 navigate('/');
             })
             .catch((err) => {
-                alert('Error: ' + err);
+                toast.error('Error: ' + err);
             });
     };
 
@@ -31,11 +32,11 @@ function SignIn(props){
         dispatch(signInWithGoogle())
             .unwrap()
             .then((payload) => {
-                window.alert(`Sign In Successful! Welcome ${payload.displayName || payload.email}`);
+                toast.success(`Sign In Successful! Welcome ${payload.displayName || payload.email}`);
                 navigate('/');
             })
             .catch((err) => {
-                alert('Google Sign-In Error: ' + err);
+                toast.error('Google Sign-In Error: ' + err);
             });
     };
 
@@ -59,7 +60,7 @@ function SignIn(props){
                 <input className="passwordinput" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
             </div>
             
-            {error && <p style={{color: 'red'}}>{error}</p>}
+            
 
             <p className="regist">Don't have an account ? <Link className="signuplink" to="/signup">Sign Up</Link></p>
             
