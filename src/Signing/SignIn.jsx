@@ -60,8 +60,6 @@ function SignIn(props){
                 <input className="passwordinput" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
             </div>
             
-            
-
             <p className="regist">Don't have an account ? <Link className="signuplink" to="/signup">Sign Up</Link></p>
             
             <button type="submit" className="signin" disabled={loading}>{loading ? 'Signing In...' : 'Sign In'}</button>
