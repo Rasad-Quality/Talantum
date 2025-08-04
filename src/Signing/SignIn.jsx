@@ -5,6 +5,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { signInUser, signInWithGoogle } from "../ReduxToolkit/authSlice";
 import { toast } from "react-toastify";
+import { MdOutlineEmail } from "react-icons/md";
+import { TbLockPassword } from "react-icons/tb";
+
 
 function SignIn(props){
     const [email, setEmail] = useState("");
@@ -49,13 +52,16 @@ function SignIn(props){
 
             <p id="or">Or</p>
 
-            <div className="email">
-                <input className="emailinput" autoComplete="off" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Type Your Email" name="email" id="email" required />
-            </div>
-            <div className="password">
-                <h1>r</h1>
-                <input className="passwordinput" autoComplete="off" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
-            </div>
+            <form className="form1">
+                <div className="email">
+                    <label htmlFor="email" className="emaillabel"><MdOutlineEmail className="emailicon" /></label>
+                    <input className="emailinput" autoComplete="off" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Type Your Email" name="email" id="email" required />
+                </div>
+                <div className="password">
+                    <label htmlFor="password" ><TbLockPassword className="passwordicon" /></label>
+                    <input className="passwordinput" autoComplete="off" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
+                </div>
+            </form>
             
             <p className="regist">Don't have an account ? <Link className="signuplink" to="/signup">Sign Up</Link></p>
             

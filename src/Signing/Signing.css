@@ -62,15 +62,38 @@
 
 .email{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
+    font-size: 2em;
     margin-top: 20px;
 }
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .emailinput{
-    width: 100%;
+    width: 200px;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #0BA40F;
@@ -79,7 +102,7 @@
     margin-right: -20px;
 }
 .passwordinput{
-    width: 100%;
+    width: 200px;
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #0BA40F;

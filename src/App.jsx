@@ -30,7 +30,7 @@ function App() {
         <ToastContainer position="top-right" autoClose={2000} hideProgressBar={false} />
         <NavBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} onProfileClick={() => setProfileDrawerOpen(true)} />
         <Routes>
-            <Route path='/home' element={<Home searchTerm={searchTerm} />} />
+            <Route path='/' element={<Home searchTerm={searchTerm} />} />
             <Route path='/signin' element={<SignIn />} />
             <Route path='/signup' element={<SignUp />} />
         </Routes>
