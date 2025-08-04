@@ -53,6 +53,7 @@ function SignIn(props){
                 <input className="emailinput" autoComplete="off" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Type Your Email" name="email" id="email" required />
             </div>
             <div className="password">
+                <h1>r</h1>
                 <input className="passwordinput" autoComplete="off" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
             </div>
             
