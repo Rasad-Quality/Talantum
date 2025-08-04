@@ -8,7 +8,7 @@ import { store } from './ReduxToolkit/store.jsx'
 import { Provider } from 'react-redux'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/talantum-job-portal/">
+  <BrowserRouter basename="/Talantum">
     <Provider store={store}>
       <AuthProvider>
         <App />
