@@ -1,8 +1,6 @@
 import React , { useState } from "react";
 import './Signing.css'
 import { FcGoogle } from "react-icons/fc";
-import { FaKey } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { signInUser, signInWithGoogle } from "../ReduxToolkit/authSlice";
