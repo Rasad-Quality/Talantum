@@ -15,7 +15,7 @@ function NavBar({ searchTerm, setSearchTerm, onProfileClick }) {
                 <h3 style={{ height: '40px',fontWeight:'bold', fontSize: '2em',marginLeft : '20px' , marginBottom: '-px' ,color:'#0BA40F'}}>Talantum</h3>
                 <div className="sandv">
                 <ul>
-                    <li> <Link className='link' to="/">Home</Link>  </li>
+                    <li> <Link className='link' to="home">Home</Link>  </li>
                     <li> 
                         <Link className='link' to="#" onClick={(e) => { e.preventDefault(); toast.info("This is a demo project. This feature is not available."); }}>
                             Create New
