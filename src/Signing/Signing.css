@@ -59,22 +59,7 @@
 #or{
     margin-top: 20px;
 }
-.icon10{
-    position: absolute;
-    left : 600px;
-    font-size: 1.4rem;
-    font-weight: bold;
-}
-#post{
-    position: absolute;
-    left: 600px;
-    top: 420px;
-}
-#pasw{
-    position: absolute;
-    left: 600px;
-    top: 470px;
-}
+
 .email{
     display: flex;
     flex-direction: row;
