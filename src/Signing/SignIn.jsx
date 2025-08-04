@@ -22,7 +22,7 @@ function SignIn(props){
             .unwrap()
             .then((payload) => {
                 toast.success(`Sign In Successful! Welcome ${payload.email}`);
-                navigate('/home');
+                navigate('/');
             })
             .catch((err) => {
                 toast.error('Error: ' + err);
