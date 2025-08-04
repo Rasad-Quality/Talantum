@@ -56,7 +56,7 @@ function SignIn(props){
                 <input className="emailinput" value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Type Your Email" name="email" id="email" required />
             </div>
             <div className="password">
-                <label htmlFor="password"><FaKey className="icon10" id="pasw"/></label>
+                
                 <input className="passwordinput" value={password} onChange={(e) => setPassword(e.target.value)} type={'password'} placeholder="Type Your Password" name="password" id="password" required />
             </div>
             
