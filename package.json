@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rasad-quality.github.io/Talantum",
+  "homepage": "https://rasad-quality.github.io/Talantum/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
