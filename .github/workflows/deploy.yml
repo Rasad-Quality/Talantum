@@ -5,13 +5,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-# Установка разрешений для GITHUB_TOKEN
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Группировка concurrent deployments
 concurrency:
   group: "pages"
   cancel-in-progress: false
