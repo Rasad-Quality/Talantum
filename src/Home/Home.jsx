@@ -112,7 +112,7 @@ function Home({ searchTerm }) {
     };
 
     return (
-        <Grid container spacing={1}>
+        <Grid container spacing={1} className="MMMcontainer">
             <Grid  
             marginLeft={'15px'} spacing={1} className="filter" size = {3.3} >
                 <div className="ccontainer">
@@ -236,12 +236,13 @@ function Home({ searchTerm }) {
             >
                 {selectedJob && (
                     <Box
-                        sx={{ width: 450, padding: '20px', display: 'flex', flexDirection: 'column', height: '100%' }}
+                        sx={{ width: 450 , padding: '20px', backgroundColor: '#000',display: 'flex', flexDirection: 'column', height: '100%' }}
                         role="presentation"
                     >
-                        <Box flexGrow={1}>
+                        <Box sx={{color: '#fff'}} 
+                        flexGrow={1}>
                             <Typography variant="h5" gutterBottom>{selectedJob.title}</Typography>
-                            <Typography variant="subtitle1" color="text.secondary">{selectedJob.companyName}</Typography>
+                            <Typography variant="subtitle1" color='#fff'>{selectedJob.companyName}</Typography>
                             <Divider sx={{ my: 2 }} />
                             <Typography><strong>Category:</strong> {selectedJob.category}</Typography>
                             <Typography><strong>Experience:</strong> {selectedJob.experience}</Typography>
@@ -255,7 +256,7 @@ function Home({ searchTerm }) {
                         </Box>
                         <Box>
                             <Button variant="contained" fullWidth sx={{ mt: 2, backgroundColor: '#0BA40F', '&:hover': { backgroundColor: '#09940d' } }} onClick={handleApplyClick}>Apply Now</Button>
-                            <Button variant="outlined" fullWidth onClick={handleDrawerClose} sx={{ mt: 1, border: '2px solid #0BA40F',borderColor: '#0BA40F', color: '#000' }}>Close</Button>
+                            <Button variant="outlined" fullWidth onClick={handleDrawerClose} sx={{ mt: 1, border: '2px solid #0BA40F',borderColor: '#0BA40F', color: '#fff' }}>Close</Button>
                         </Box>
                     </Box>
                 )}

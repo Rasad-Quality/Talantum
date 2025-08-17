@@ -136,11 +136,12 @@ function ProfileDrawer({ open, onClose, onOpen }) {
                     overflow: 'auto'
                 }}
                 role="presentation"
+                className="profile-drawer"
             >
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Typography variant="h6">Profile</Typography>
                     <IconButton onClick={onClose}>
-                        <CloseIcon />
+                        <CloseIcon sx={{color: '#fff'}}/>
                     </IconButton>
                 </Box>
                 <Divider sx={{ my: 1 }} />
@@ -155,7 +156,7 @@ function ProfileDrawer({ open, onClose, onOpen }) {
                             @{username.trim()}
                         </Typography>
                     )}
-                    <Typography color="text.secondary" sx={{ mb: 2 }}>{user.email}</Typography>
+                    <Typography color="text.secondary" sx={{ mb: 2 , color:'#fff'}}>{user.email}</Typography>
                 </Box>
 
                 {/* Username Section */}
@@ -170,19 +171,17 @@ function ProfileDrawer({ open, onClose, onOpen }) {
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             style={{
-                                width: '100%',
+                                width: '94%',
                                 padding: '8px 12px',
-                                border: '2px solid #e2e8f0',
+                                border: '2px solid #0BA40F',
                                 borderRadius: '6px',
                                 fontSize: '14px',
                                 fontFamily: 'inherit',
-                                outline: 'none',
+                                color: '#fff',
                                 transition: 'border-color 0.2s',
-                                backgroundColor: '#ffffff',
+                                backgroundColor: 'hsl(0, 0%, 7%)',
                                 height: '40px'
                             }}
-                            onFocus={(e) => e.target.style.borderColor = '#0BA40F'}
-                            onBlur={(e) => e.target.style.borderColor = '#e2e8f0'}
                         />
                         <Typography variant="caption" sx={{ color: '#a0aec0', mt: 1, display: 'block' }}>
                             Choose a unique username that represents you
@@ -248,14 +247,15 @@ function ProfileDrawer({ open, onClose, onOpen }) {
                                         fontSize: '12px',
                                         textTransform: 'none',
                                         borderRadius: '10px',
-                                        backgroundColor: selectedSkills.includes(skill) ? '#0BA40F' : '#ffffff',
-                                        borderColor: selectedSkills.includes(skill) ? '#0BA40F' : '#e2e8f0',
+                                        backgroundColor: selectedSkills.includes(skill) ? '#0BA40F' : 'hsl(0, 0%, 7%)',
+                                        borderColor: selectedSkills.includes(skill) ? '#0BA40F' : 'hsl(124, 60%, 40%)',
                                         color: selectedSkills.includes(skill) ? 'white' : '#4a5568',
                                         '&:hover': {
-                                            backgroundColor: selectedSkills.includes(skill) ? '#0A8F0D' : '#f0fdf4',
+                                            backgroundColor: selectedSkills.includes(skill) ? '#0A8F0D' : 'hsl(0, 0%, 15%)',
                                             borderColor: '#0BA40F',
                                             transform: 'translateY(-2px)',
-                                            boxShadow: '0 4px 12px rgba(11, 164, 15, 0.15)'
+                                            boxShadow: '0 4px 12px rgba(11, 164, 15, 0.15)',
+                                            color: 'white'
                                         }
                                     }}
                                 >

@@ -3,9 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(0, 0%, 0%);
 }
 .maincontainer{
-    background-color: #fff;
+    background-color: hsl(0, 0%, 7%);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -36,10 +37,11 @@
     display: flex;
     border-radius: 10px;
     border: 2px solid #0BA40F;
-    background-color: #fff;
+    background-color: hsl(0, 0%, 7%);
     text-align: center;
     justify-content: center;
     align-items: center;
+    color: hsl(0, 0%, 100%);
     width: 100%;
     font-weight: bold;
     font-size: 1.2em;
@@ -49,7 +51,8 @@
 }
 
 .icons3:hover{
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 100%);
+    color: #000;
 }
 
 .picon{
@@ -98,6 +101,8 @@
     border-radius: 5px;
     border: 2px solid #0BA40F;
     margin-bottom: 10px;
+    background-color: transparent;
+    color: #fff;
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -106,6 +111,8 @@
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #0BA40F;
+    background-color: transparent;
+    color: #fff;
     margin-bottom: 20px;
 }
 .regist{
@@ -123,12 +130,14 @@
     transition: 0.3s;
 }
 .signin:hover{
-    background-color: hsl(122, 87%, 30%);
-    transform: scale(1.05);
+    background-color: hsl(122, 87%, 100%);
+    color: #000;
+    transform: scale(1.1);
 }
 
 .signuplink{
     text-decoration: none;
+    color: hsl(227, 87%, 65%);
 }
 
 .signuplink:hover{

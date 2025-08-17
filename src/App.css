@@ -3,3 +3,47 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* --- React Toastify Customization --- */
+
+/* This targets all toast notifications. */
+.Toastify__toast {
+  background: hsl(0, 0%, 12%); /* A dark background to match your theme */
+  color: #fff;
+}
+
+/* Style the icon to be white */
+.Toastify__toast-icon {
+  color: #fff;
+}
+
+/* Style the close button to be white */
+.Toastify__close-button {
+  color: #fff;
+  opacity: 0.8;
+}
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+/* You can also target specific toast types for different colors. */
+.Toastify__toast--success {
+  background: #0BA40F; /* Using the green from your Signing.css */
+}
+
+.Toastify__toast--error {
+  background: #e74c3c;
+}
+
+.Toastify__toast--info {
+  background: #3498db;
+}
+
+.Toastify__toast--warning {
+  background: #f1c40f;
+}
+
+/* You can also customize the progress bar */
+.Toastify__progress-bar--success {
+  background: hsl(0, 0%, 100%);
+}

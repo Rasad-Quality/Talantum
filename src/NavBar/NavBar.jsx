@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 import { CgProfile } from "react-icons/cg";
 import './Navbar.css'; 
 import { AuthContext } from '../AuthContext';
+import { IoSearch } from "react-icons/io5";
 
 
 function NavBar({ searchTerm, setSearchTerm, onProfileClick }) {
