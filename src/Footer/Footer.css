@@ -1,0 +1,27 @@
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%,3%);
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+    gap: 10px;
+    position: relative;
+}
+.footer-text{
+    font-size: 1.2em;
+    color: hsl(0, 0%, 90%);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2em;
+}
+.icon{
+    cursor: pointer;
+}

@@ -1,0 +1,145 @@
+.mainm{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 0%);
+}
+.maincontainer{
+    background-color: hsl(0, 0%, 7%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 15px; 
+}
+#welc{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.icons2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.icons3{
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #0BA40F;
+    background-color: hsl(0, 0%, 7%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 15px;
+    transition: 0.3s 
+}
+
+.icons3:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: #000;
+}
+
+.picon{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+#or{
+    margin-top: 20px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.emailinput{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0BA40F;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #fff;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.passwordinput{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0BA40F;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.regist{
+    margin-top: 10px;
+}
+.signin{
+    background-color: #0BA40F;
+    color: #fff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.signin:hover{
+    background-color: hsl(122, 87%, 100%);
+    color: #000;
+    transform: scale(1.1);
+}
+
+.signuplink{
+    text-decoration: none;
+    color: hsl(227, 87%, 65%);
+}
+
+.signuplink:hover{
+    text-decoration: underline;
+}

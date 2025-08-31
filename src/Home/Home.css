@@ -1,0 +1,225 @@
+.filter{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.MMMcontainer{
+  background-color: hsl(0, 0%, 0%);
+}
+
+.ccontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 7%);
+    box-shadow: 2px -5px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 20px 20px;
+    gap: 20px;
+}
+
+.categoryD{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 20%);
+    font-size: 1.2em;
+    background-color: hsl(0, 0%, 10%);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+p{
+    color : hsl(208, 12%, 50%)
+}
+.catbtns{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btncat1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(124, 60%, 40%);
+  color: #fff;
+  background-color: hsl(0, 0, 15%);
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 80px;
+  height: 30px;
+}
+.btncat1:hover{
+  transform: scale(1.1);
+}
+
+.btncat2{
+  display: flex;
+  background-color: hsl(124, 60%, 40%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  font-size: 1.001em;
+  color: #b3b3b3;
+  padding: 20px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 80px;
+  height: 30px;  
+}
+.btncat2:hover{
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #000;
+}
+.select-wrapper {
+  position: relative;
+  width: 220px;
+}
+
+.arrowc{
+  position: absolute;
+  right: 15px;
+  color: #b3b3b3;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.searchc{
+  justify-content: center; 
+  align-items: center; 
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 15px;
+  width: 100%;
+  height: 50px;
+  padding-left: 15px;
+  color: #b3b3b3;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #262626;
+}
+.option1{
+  border: none;
+  appearance: none;
+  padding: 20px 20px;
+}
+.searchc:hover{
+  outline: none;
+  border-color: #000;
+}
+.searchc:open ~ .arrowc{
+  transform: translateY(-50%) rotate(90deg);
+}
+#experience{
+  display: flex;
+  padding: 20px 20px;
+}
+.experiencecc{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+.experiencecc div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(0, 0%, 15%);
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.numb{
+  width: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 30%);
+  font-size: 15px;
+  text-align: center;
+  color: #b3b3b3;
+  align-items: center;
+  background-color: hsl(0, 0%, 15%);
+}
+.numbs{
+  display: flex; 
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.fidiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #b3b3b3;
+  background-color: hsl(0, 0%, 20%);
+  padding: 25px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.fidiv:hover,
+.fidiv.active {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
+
+.jobs{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 72,5%;
+  padding: 10px 0px;
+}
+.jobss{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.joblisting{
+  height: 1000px;
+  overflow-y: auto ;
+  overflow-x: hidden;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  margin-right: -20px;
+}
+.joblisting::-webkit-scrollbar{
+  width: 10px;
+}
+.joblisting::-webkit-scrollbar-thumb{
+  background: hsl(0, 0%, 70%);
+  border-radius: 10px;
+  
+}
+.joblisting::-webkit-scrollbar-thumb:hover{
+  background: hsl(0, 0%, 100%);
+}
+.joblisting::-webkit-scrollbar-track{
+  background: hsl(0, 0%, 30%);
+  border-radius: 10px;
+  
+}
+#h33{
+  text-align: left;
+  color: hsl(208, 12%, 40%);
+  margin-top: 10px;
+}

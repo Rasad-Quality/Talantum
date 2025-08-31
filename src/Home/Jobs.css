@@ -1,0 +1,63 @@
+.job-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 7%);
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+    color: #b3b3b3;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.job-container:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.001);
+}
+
+
+.btns :nth-child(2):hover{
+    background-color: #fff;
+    transform: scale(1.1);
+    color: #000;
+}
+
+.btns :nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(124, 60%, 40%);
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height: 50px;
+}
+.btns :nth-child(1):hover{
+    transform: scale(1.1);
+}
+.btns :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 0%, 10%);
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height: 50px;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,2374 @@
+{
+  "categories": {
+    "Frontend Development": [
+      {
+        "id": 1,
+        "title": "Senior React Developer",
+        "experience": "5+ Years",
+        "companyName": "TechCorp Solutions",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 2,
+        "title": "Vue.js Developer",
+        "experience": "2-5 Years",
+        "companyName": "Digital Innovations",
+        "salary": {
+          "min": 2500,
+          "max": 4000
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 3,
+        "title": "Junior Frontend Developer",
+        "experience": "1-2 Years",
+        "companyName": "StartupHub",
+        "salary": {
+          "min": 1200,
+          "max": 2000
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 4,
+        "title": "Angular Developer",
+        "experience": "2-5 Years",
+        "companyName": "WebTech Agency",
+        "salary": {
+          "min": 3000,
+          "max": 4500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 5,
+        "title": "React Native Web Developer",
+        "experience": "2-5 Years",
+        "companyName": "CrossMedia Tech",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 6,
+        "title": "TypeScript Frontend Developer",
+        "experience": "2-5 Years",
+        "companyName": "ModernWeb Co",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 7,
+        "title": "Next.js Developer",
+        "experience": "2-5 Years",
+        "companyName": "ServerSide Solutions",
+        "salary": {
+          "min": 3500,
+          "max": 5000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 8,
+        "title": "Svelte Developer",
+        "experience": "1-2 Years",
+        "companyName": "Lightweight Apps",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 9,
+        "title": "HTML/CSS Specialist",
+        "experience": "1-2 Years",
+        "companyName": "Markup Masters",
+        "salary": {
+          "min": 1500,
+          "max": 2200
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 10,
+        "title": "JavaScript Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Vanilla JS Pro",
+        "salary": {
+          "min": 2700,
+          "max": 3800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 11,
+        "title": "Frontend Team Lead",
+        "experience": "5+ Years",
+        "companyName": "Leadership Tech",
+        "salary": {
+          "min": 5000,
+          "max": 7500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 12,
+        "title": "Nuxt.js Developer",
+        "experience": "2-5 Years",
+        "companyName": "Vue Ecosystem Ltd",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      },
+      {
+        "id": 13,
+        "title": "Webpack Configuration Expert",
+        "experience": "2-5 Years",
+        "companyName": "Build Tools Co",
+        "salary": {
+          "min": 3100,
+          "max": 4500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 14,
+        "title": "SASS/SCSS Developer",
+        "experience": "1-2 Years",
+        "companyName": "Style Systems",
+        "salary": {
+          "min": 1800,
+          "max": 2600
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 15,
+        "title": "PWA Developer",
+        "experience": "2-5 Years",
+        "companyName": "Progressive Apps Inc",
+        "salary": {
+          "min": 3300,
+          "max": 4700
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 16,
+        "title": "Micro Frontend Architect",
+        "experience": "5+ Years",
+        "companyName": "Architecture Systems",
+        "salary": {
+          "min": 5500,
+          "max": 8000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 17,
+        "title": "Gatsby Developer",
+        "experience": "1-2 Years",
+        "companyName": "Static Site Pro",
+        "salary": {
+          "min": 2200,
+          "max": 3200
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 18,
+        "title": "Three.js Developer",
+        "experience": "2-5 Years",
+        "companyName": "3D Web Solutions",
+        "salary": {
+          "min": 3800,
+          "max": 5500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 19,
+        "title": "D3.js Visualization Developer",
+        "experience": "2-5 Years",
+        "companyName": "DataViz Studio",
+        "salary": {
+          "min": 3400,
+          "max": 4900
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 20,
+        "title": "Tailwind CSS Expert",
+        "experience": "1-2 Years",
+        "companyName": "Utility First Design",
+        "salary": {
+          "min": 2100,
+          "max": 3100
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 21,
+        "title": "Web Components Developer",
+        "experience": "2-5 Years",
+        "companyName": "Component Library Co",
+        "salary": {
+          "min": 3000,
+          "max": 4400
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 22,
+        "title": "Frontend Performance Specialist",
+        "experience": "5+ Years",
+        "companyName": "Speed Optimization Ltd",
+        "salary": {
+          "min": 4500,
+          "max": 6500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 23,
+        "title": "Alpine.js Developer",
+        "experience": "1-2 Years",
+        "companyName": "Minimal JS Solutions",
+        "salary": {
+          "min": 1900,
+          "max": 2800
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 24,
+        "title": "Vite Frontend Developer",
+        "experience": "1-2 Years",
+        "companyName": "Fast Build Tools",
+        "salary": {
+          "min": 2300,
+          "max": 3300
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 25,
+        "title": "Ember.js Developer",
+        "experience": "2-5 Years",
+        "companyName": "Convention Over Config",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      }
+    ],
+    "Backend Development": [
+      {
+        "id": 26,
+        "title": "Senior Node.js Developer",
+        "experience": "5+ Years",
+        "companyName": "CloudTech Systems",
+        "salary": {
+          "min": 4500,
+          "max": 7000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 27,
+        "title": "Python Developer",
+        "experience": "2-5 Years",
+        "companyName": "AI Solutions Ltd",
+        "salary": {
+          "min": 3200,
+          "max": 5000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 28,
+        "title": "Java Spring Developer",
+        "experience": "2-5 Years",
+        "companyName": "Enterprise Software Co.",
+        "salary": {
+          "min": 3500,
+          "max": 5500
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 29,
+        "title": "PHP Laravel Developer",
+        "experience": "1-2 Years",
+        "companyName": "WebCraft Studio",
+        "salary": {
+          "min": 1800,
+          "max": 2800
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      },
+      {
+        "id": 30,
+        "title": "Django Developer",
+        "experience": "2-5 Years",
+        "companyName": "Python Web Framework Co",
+        "salary": {
+          "min": 3100,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 31,
+        "title": "Express.js Backend Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Minimal Backend Solutions",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 32,
+        "title": "FastAPI Developer",
+        "experience": "1-2 Years",
+        "companyName": "Modern Python APIs",
+        "salary": {
+          "min": 2400,
+          "max": 3600
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 33,
+        "title": "Ruby on Rails Developer",
+        "experience": "2-5 Years",
+        "companyName": "Convention Rails Co",
+        "salary": {
+          "min": 3000,
+          "max": 4500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 34,
+        "title": "ASP.NET Core Developer",
+        "experience": "2-5 Years",
+        "companyName": "Microsoft Stack Solutions",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 35,
+        "title": "Go Backend Developer",
+        "experience": "2-5 Years",
+        "companyName": "Concurrent Systems Ltd",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 36,
+        "title": "Rust Backend Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Systems Programming Co",
+        "salary": {
+          "min": 3800,
+          "max": 5700
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 37,
+        "title": "NestJS Developer",
+        "experience": "1-2 Years",
+        "companyName": "Structured Node Apps",
+        "salary": {
+          "min": 2500,
+          "max": 3700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 38,
+        "title": "GraphQL API Developer",
+        "experience": "2-5 Years",
+        "companyName": "Query Language Solutions",
+        "salary": {
+          "min": 3300,
+          "max": 4900
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 39,
+        "title": "Microservices Architect",
+        "experience": "5+ Years",
+        "companyName": "Distributed Systems Inc",
+        "salary": {
+          "min": 5000,
+          "max": 7500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 40,
+        "title": "RESTful API Developer",
+        "experience": "1-2 Years",
+        "companyName": "API First Design",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 41,
+        "title": "Flask Developer",
+        "experience": "1-2 Years",
+        "companyName": "Lightweight Python Web",
+        "salary": {
+          "min": 2200,
+          "max": 3300
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 42,
+        "title": "Serverless Backend Developer",
+        "experience": "2-5 Years",
+        "companyName": "Cloud Functions Co",
+        "salary": {
+          "min": 3700,
+          "max": 5300
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 43,
+        "title": "Database Design Specialist",
+        "experience": "5+ Years",
+        "companyName": "Data Architecture Ltd",
+        "salary": {
+          "min": 4200,
+          "max": 6200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 44,
+        "title": "API Gateway Developer",
+        "experience": "2-5 Years",
+        "companyName": "Gateway Solutions Inc",
+        "salary": {
+          "min": 3500,
+          "max": 5000
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 45,
+        "title": "Spring Boot Developer",
+        "experience": "1-2 Years",
+        "companyName": "Java Microservices Co",
+        "salary": {
+          "min": 2300,
+          "max": 3500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 46,
+        "title": "Koa.js Developer",
+        "experience": "2-5 Years",
+        "companyName": "Next Gen Node Apps",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 47,
+        "title": "Event-Driven Architecture Developer",
+        "experience": "5+ Years",
+        "companyName": "Async Systems Ltd",
+        "salary": {
+          "min": 4800,
+          "max": 7000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 48,
+        "title": "Deno Backend Developer",
+        "experience": "1-2 Years",
+        "companyName": "Modern Runtime Solutions",
+        "salary": {
+          "min": 2600,
+          "max": 3800
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 49,
+        "title": "gRPC Developer",
+        "experience": "2-5 Years",
+        "companyName": "High Performance RPC",
+        "salary": {
+          "min": 3400,
+          "max": 4800
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 50,
+        "title": "Blockchain Backend Developer",
+        "experience": "2-5 Years",
+        "companyName": "Decentralized Systems Co",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      }
+    ],
+    "Mobile Development": [
+      {
+        "id": 51,
+        "title": "iOS Developer",
+        "experience": "2-5 Years",
+        "companyName": "MobileFirst Inc",
+        "salary": {
+          "min": 3500,
+          "max": 5200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 52,
+        "title": "Android Developer",
+        "experience": "2-5 Years",
+        "companyName": "AppDev Solutions",
+        "salary": {
+          "min": 3000,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 53,
+        "title": "React Native Developer",
+        "experience": "1-2 Years",
+        "companyName": "CrossPlatform Apps",
+        "salary": {
+          "min": 2200,
+          "max": 3500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 54,
+        "title": "Flutter Developer",
+        "experience": "1-2 Years",
+        "companyName": "Modern Mobile Co.",
+        "salary": {
+          "min": 2000,
+          "max": 3200
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 55,
+        "title": "Swift iOS Developer",
+        "experience": "2-5 Years",
+        "companyName": "Apple Ecosystem Pro",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 56,
+        "title": "Kotlin Android Developer",
+        "experience": "2-5 Years",
+        "companyName": "Modern Android Solutions",
+        "salary": {
+          "min": 3200,
+          "max": 4900
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 57,
+        "title": "Xamarin Developer",
+        "experience": "2-5 Years",
+        "companyName": "Microsoft Mobile Stack",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 58,
+        "title": "Ionic Developer",
+        "experience": "1-2 Years",
+        "companyName": "Hybrid Apps Co",
+        "salary": {
+          "min": 1900,
+          "max": 2900
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 59,
+        "title": "Mobile UI/UX Developer",
+        "experience": "2-5 Years",
+        "companyName": "Touch Interface Design",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 60,
+        "title": "Mobile Game Developer",
+        "experience": "2-5 Years",
+        "companyName": "Gaming Studio Pro",
+        "salary": {
+          "min": 3300,
+          "max": 5000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 61,
+        "title": "Progressive Web App Developer",
+        "experience": "1-2 Years",
+        "companyName": "Web-to-Mobile Solutions",
+        "salary": {
+          "min": 2100,
+          "max": 3200
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 62,
+        "title": "Mobile Backend Developer",
+        "experience": "2-5 Years",
+        "companyName": "API for Mobile Co",
+        "salary": {
+          "min": 3100,
+          "max": 4600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 63,
+        "title": "Unity Mobile Developer",
+        "experience": "2-5 Years",
+        "companyName": "Cross-Platform Games",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 64,
+        "title": "Mobile Security Developer",
+        "experience": "5+ Years",
+        "companyName": "Secure Mobile Solutions",
+        "salary": {
+          "min": 4500,
+          "max": 6500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 65,
+        "title": "Mobile DevOps Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Mobile CI/CD Solutions",
+        "salary": {
+          "min": 3500,
+          "max": 5200
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 66,
+        "title": "Cordova Developer",
+        "experience": "1-2 Years",
+        "companyName": "PhoneGap Solutions",
+        "salary": {
+          "min": 1800,
+          "max": 2700
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      },
+      {
+        "id": 67,
+        "title": "Mobile Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Mobile QA Pro",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 68,
+        "title": "ARKit iOS Developer",
+        "experience": "2-5 Years",
+        "companyName": "Augmented Reality Apps",
+        "salary": {
+          "min": 3800,
+          "max": 5600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 69,
+        "title": "Mobile Performance Specialist",
+        "experience": "5+ Years",
+        "companyName": "Fast Mobile Apps",
+        "salary": {
+          "min": 4200,
+          "max": 6200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 70,
+        "title": "Capacitor Developer",
+        "experience": "1-2 Years",
+        "companyName": "Native Bridge Solutions",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 71,
+        "title": "Mobile Architecture Lead",
+        "experience": "5+ Years",
+        "companyName": "Mobile Systems Design",
+        "salary": {
+          "min": 5000,
+          "max": 7500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 72,
+        "title": "Wearable App Developer",
+        "experience": "2-5 Years",
+        "companyName": "IoT Wearables Co",
+        "salary": {
+          "min": 3000,
+          "max": 4500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 73,
+        "title": "Mobile Analytics Developer",
+        "experience": "1-2 Years",
+        "companyName": "Data-Driven Mobile",
+        "salary": {
+          "min": 2300,
+          "max": 3400
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 74,
+        "title": "Mobile Accessibility Developer",
+        "experience": "2-5 Years",
+        "companyName": "Inclusive Mobile Design",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 75,
+        "title": "Mobile Monetization Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Revenue Mobile Apps",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Freelance"
+      }
+    ],
+    "Data Science": [
+      {
+        "id": 76,
+        "title": "Data Scientist",
+        "experience": "5+ Years",
+        "companyName": "Analytics Pro",
+        "salary": {
+          "min": 5000,
+          "max": 8000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 77,
+        "title": "Machine Learning Engineer",
+        "experience": "2-5 Years",
+        "companyName": "AI Research Lab",
+        "salary": {
+          "min": 4000,
+          "max": 6500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 78,
+        "title": "Data Analyst",
+        "experience": "1-2 Years",
+        "companyName": "Business Intelligence Corp",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 79,
+        "title": "Junior Data Scientist",
+        "experience": "1-2 Years",
+        "companyName": "DataTech Startup",
+        "salary": {
+          "min": 1500,
+          "max": 2500
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 80,
+        "title": "Deep Learning Researcher",
+        "experience": "5+ Years",
+        "companyName": "Neural Networks Lab",
+        "salary": {
+          "min": 5500,
+          "max": 8500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 81,
+        "title": "Computer Vision Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Visual AI Solutions",
+        "salary": {
+          "min": 4200,
+          "max": 6200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 82,
+        "title": "NLP Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Language Processing Co",
+        "salary": {
+          "min": 3800,
+          "max": 5800
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 83,
+        "title": "Data Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Big Data Pipelines",
+        "salary": {
+          "min": 3500,
+          "max": 5200
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 84,
+        "title": "Business Intelligence Analyst",
+        "experience": "1-2 Years",
+        "companyName": "Strategic Analytics",
+        "salary": {
+          "min": 2200,
+          "max": 3300
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 85,
+        "title": "Statistical Modeler",
+        "experience": "2-5 Years",
+        "companyName": "Predictive Models Inc",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 86,
+        "title": "MLOps Engineer",
+        "experience": "2-5 Years",
+        "companyName": "ML Production Systems",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 87,
+        "title": "Data Visualization Specialist",
+        "experience": "1-2 Years",
+        "companyName": "Charts & Graphs Co",
+        "salary": {
+          "min": 2400,
+          "max": 3600
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 88,
+        "title": "Quantitative Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Financial Data Solutions",
+        "salary": {
+          "min": 3900,
+          "max": 5700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 89,
+        "title": "AI Ethics Researcher",
+        "experience": "5+ Years",
+        "companyName": "Responsible AI Institute",
+        "salary": {
+          "min": 4800,
+          "max": 7200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 90,
+        "title": "Time Series Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Forecasting Solutions",
+        "salary": {
+          "min": 3300,
+          "max": 4900
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 91,
+        "title": "Recommendation Systems Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Personalization Tech",
+        "salary": {
+          "min": 3700,
+          "max": 5500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 92,
+        "title": "A/B Testing Analyst",
+        "experience": "1-2 Years",
+        "companyName": "Experiment Design Co",
+        "salary": {
+          "min": 2300,
+          "max": 3400
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 93,
+        "title": "Geospatial Data Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Location Intelligence",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 94,
+        "title": "Bioinformatics Specialist",
+        "experience": "5+ Years",
+        "companyName": "Life Sciences Data",
+        "salary": {
+          "min": 4600,
+          "max": 6800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 95,
+        "title": "Fraud Detection Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Security Analytics Ltd",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 96,
+        "title": "Marketing Data Scientist",
+        "experience": "1-2 Years",
+        "companyName": "Customer Analytics Pro",
+        "salary": {
+          "min": 2600,
+          "max": 3800
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 97,
+        "title": "Research Data Scientist",
+        "experience": "5+ Years",
+        "companyName": "Academic Research Institute",
+        "salary": {
+          "min": 4400,
+          "max": 6600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 98,
+        "title": "Edge AI Developer",
+        "experience": "2-5 Years",
+        "companyName": "IoT Intelligence Co",
+        "salary": {
+          "min": 3800,
+          "max": 5600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 99,
+        "title": "Healthcare Data Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Medical Analytics Solutions",
+        "salary": {
+          "min": 3100,
+          "max": 4700
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 100,
+        "title": "Supply Chain Analyst",
+        "experience": "1-2 Years",
+        "companyName": "Logistics Intelligence",
+        "salary": {
+          "min": 2500,
+          "max": 3700
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      }
+    ],
+    "DevOps": [
+      {
+        "id": 101,
+        "title": "Senior DevOps Engineer",
+        "experience": "5+ Years",
+        "companyName": "CloudOps Systems",
+        "salary": {
+          "min": 5500,
+          "max": 8500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 102,
+        "title": "AWS Cloud Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Cloud Solutions Ltd",
+        "salary": {
+          "min": 3800,
+          "max": 5800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 103,
+        "title": "Docker & Kubernetes Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Container Tech",
+        "salary": {
+          "min": 3500,
+          "max": 5000
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 104,
+        "title": "CI/CD Engineer",
+        "experience": "1-2 Years",
+        "companyName": "AutoDeploy Inc",
+        "salary": {
+          "min": 2500,
+          "max": 3800
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 105,
+        "title": "Azure DevOps Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Microsoft Cloud Solutions",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 106,
+        "title": "Infrastructure as Code Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Terraform Pro",
+        "salary": {
+          "min": 3700,
+          "max": 5500
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 107,
+        "title": "Site Reliability Engineer",
+        "experience": "5+ Years",
+        "companyName": "High Availability Systems",
+        "salary": {
+          "min": 5200,
+          "max": 7800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 108,
+        "title": "Jenkins Administrator",
+        "experience": "1-2 Years",
+        "companyName": "Build Automation Co",
+        "salary": {
+          "min": 2300,
+          "max": 3400
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 109,
+        "title": "Monitoring & Observability Engineer",
+        "experience": "2-5 Years",
+        "companyName": "System Insights Ltd",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 110,
+        "title": "GCP Cloud Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Google Cloud Experts",
+        "salary": {
+          "min": 3800,
+          "max": 5700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 111,
+        "title": "Security DevOps Engineer",
+        "experience": "2-5 Years",
+        "companyName": "SecOps Solutions",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 112,
+        "title": "Platform Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Developer Platform Co",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 113,
+        "title": "Release Manager",
+        "experience": "5+ Years",
+        "companyName": "Software Delivery Systems",
+        "salary": {
+          "min": 4500,
+          "max": 6700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 114,
+        "title": "GitOps Engineer",
+        "experience": "1-2 Years",
+        "companyName": "Git-Driven Deployment",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 115,
+        "title": "Ansible Automation Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Configuration Management Pro",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 116,
+        "title": "Cloud Security Engineer",
+        "experience": "5+ Years",
+        "companyName": "Secure Cloud Infrastructure",
+        "salary": {
+          "min": 4800,
+          "max": 7200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 117,
+        "title": "Serverless Architecture Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Function-as-a-Service Co",
+        "salary": {
+          "min": 3500,
+          "max": 5200
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 118,
+        "title": "Multi-Cloud Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Hybrid Cloud Solutions",
+        "salary": {
+          "min": 3900,
+          "max": 5800
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 119,
+        "title": "DevOps Consultant",
+        "experience": "5+ Years",
+        "companyName": "DevOps Transformation Inc",
+        "salary": {
+          "min": 5000,
+          "max": 7500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 120,
+        "title": "Container Orchestration Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Microservices Platform",
+        "salary": {
+          "min": 3300,
+          "max": 4900
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 121,
+        "title": "Build & Release Engineer",
+        "experience": "1-2 Years",
+        "companyName": "Continuous Integration Co",
+        "salary": {
+          "min": 2400,
+          "max": 3600
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 122,
+        "title": "Performance Engineering Specialist",
+        "experience": "2-5 Years",
+        "companyName": "High Performance Systems",
+        "salary": {
+          "min": 3700,
+          "max": 5500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 123,
+        "title": "Disaster Recovery Engineer",
+        "experience": "5+ Years",
+        "companyName": "Business Continuity Solutions",
+        "salary": {
+          "min": 4600,
+          "max": 6900
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 124,
+        "title": "Logging & Analytics Engineer",
+        "experience": "1-2 Years",
+        "companyName": "System Monitoring Pro",
+        "salary": {
+          "min": 2500,
+          "max": 3700
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      },
+      {
+        "id": 125,
+        "title": "Edge Computing DevOps",
+        "experience": "2-5 Years",
+        "companyName": "Distributed Computing Co",
+        "salary": {
+          "min": 3800,
+          "max": 5600
+        },
+        "jobType": "Freelance"
+      }
+    ],
+    "UI/UX Design": [
+      {
+        "id": 126,
+        "title": "Senior UI/UX Designer",
+        "experience": "5+ Years",
+        "companyName": "Design Studio Pro",
+        "salary": {
+          "min": 3500,
+          "max": 5500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 127,
+        "title": "Product Designer",
+        "experience": "2-5 Years",
+        "companyName": "User Experience Co.",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 128,
+        "title": "Web Designer",
+        "experience": "1-2 Years",
+        "companyName": "Creative Agency",
+        "salary": {
+          "min": 1500,
+          "max": 2500
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 129,
+        "title": "Freelance UI Designer",
+        "experience": "2-5 Years",
+        "companyName": "Independent",
+        "salary": {
+          "min": 2000,
+          "max": 3500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 130,
+        "title": "Mobile App Designer",
+        "experience": "2-5 Years",
+        "companyName": "Touch Interface Studio",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 131,
+        "title": "UX Researcher",
+        "experience": "2-5 Years",
+        "companyName": "User Behavior Lab",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 132,
+        "title": "Interaction Designer",
+        "experience": "2-5 Years",
+        "companyName": "Digital Interactions Co",
+        "salary": {
+          "min": 2700,
+          "max": 4100
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 133,
+        "title": "Visual Designer",
+        "experience": "1-2 Years",
+        "companyName": "Brand & Visual Identity",
+        "salary": {
+          "min": 1800,
+          "max": 2800
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 134,
+        "title": "Design System Specialist",
+        "experience": "5+ Years",
+        "companyName": "Scalable Design Solutions",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 135,
+        "title": "Prototyping Specialist",
+        "experience": "1-2 Years",
+        "companyName": "Rapid Prototype Studio",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 136,
+        "title": "Service Designer",
+        "experience": "2-5 Years",
+        "companyName": "Customer Journey Co",
+        "salary": {
+          "min": 3000,
+          "max": 4500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 137,
+        "title": "Information Architect",
+        "experience": "5+ Years",
+        "companyName": "Content Structure Pro",
+        "salary": {
+          "min": 3800,
+          "max": 5700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 138,
+        "title": "Accessibility Designer",
+        "experience": "2-5 Years",
+        "companyName": "Inclusive Design Solutions",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 139,
+        "title": "Motion Graphics Designer",
+        "experience": "2-5 Years",
+        "companyName": "Animation & Motion Co",
+        "salary": {
+          "min": 2500,
+          "max": 3800
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 140,
+        "title": "Game UI Designer",
+        "experience": "2-5 Years",
+        "companyName": "Gaming Interface Studio",
+        "salary": {
+          "min": 3100,
+          "max": 4600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 141,
+        "title": "Design Operations Manager",
+        "experience": "5+ Years",
+        "companyName": "Design Workflow Solutions",
+        "salary": {
+          "min": 4200,
+          "max": 6300
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 142,
+        "title": "Brand Designer",
+        "experience": "1-2 Years",
+        "companyName": "Identity & Branding Co",
+        "salary": {
+          "min": 1900,
+          "max": 2900
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 143,
+        "title": "Conversion Rate Optimization Designer",
+        "experience": "2-5 Years",
+        "companyName": "Growth Design Lab",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 144,
+        "title": "Design Researcher",
+        "experience": "2-5 Years",
+        "companyName": "User Insights Co",
+        "salary": {
+          "min": 2700,
+          "max": 4000
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 145,
+        "title": "Digital Product Designer",
+        "experience": "2-5 Years",
+        "companyName": "Product Design Studio",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 146,
+        "title": "Voice UI Designer",
+        "experience": "1-2 Years",
+        "companyName": "Conversational Interface Co",
+        "salary": {
+          "min": 2300,
+          "max": 3400
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 147,
+        "title": "AR/VR Designer",
+        "experience": "2-5 Years",
+        "companyName": "Immersive Experience Studio",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 148,
+        "title": "Design Strategy Consultant",
+        "experience": "5+ Years",
+        "companyName": "Strategic Design Partners",
+        "salary": {
+          "min": 4500,
+          "max": 6800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 149,
+        "title": "E-commerce Designer",
+        "experience": "1-2 Years",
+        "companyName": "Online Shopping Experience",
+        "salary": {
+          "min": 2100,
+          "max": 3200
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 150,
+        "title": "Content Designer",
+        "experience": "2-5 Years",
+        "companyName": "Content & Messaging Co",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      }
+    ],
+    "Quality Assurance": [
+      {
+        "id": 151,
+        "title": "Senior QA Engineer",
+        "experience": "5+ Years",
+        "companyName": "Quality First Systems",
+        "salary": {
+          "min": 3500,
+          "max": 5000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 152,
+        "title": "Automation Test Engineer",
+        "experience": "2-5 Years",
+        "companyName": "TestTech Solutions",
+        "salary": {
+          "min": 2800,
+          "max": 4000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 153,
+        "title": "Manual QA Tester",
+        "experience": "1-2 Years",
+        "companyName": "Software Testing Co.",
+        "salary": {
+          "min": 1200,
+          "max": 2000
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 154,
+        "title": "Performance Test Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Load Testing Inc",
+        "salary": {
+          "min": 3000,
+          "max": 4500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 155,
+        "title": "Mobile QA Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Mobile Testing Pro",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 156,
+        "title": "API Testing Engineer",
+        "experience": "1-2 Years",
+        "companyName": "Service Testing Solutions",
+        "salary": {
+          "min": 2200,
+          "max": 3300
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 157,
+        "title": "Security Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "SecureTest Co",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 158,
+        "title": "Test Automation Architect",
+        "experience": "5+ Years",
+        "companyName": "Automation Framework Design",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 159,
+        "title": "Game QA Tester",
+        "experience": "1-2 Years",
+        "companyName": "Gaming Quality Studio",
+        "salary": {
+          "min": 1500,
+          "max": 2300
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 160,
+        "title": "Web Application Tester",
+        "experience": "1-2 Years",
+        "companyName": "Web QA Solutions",
+        "salary": {
+          "min": 1800,
+          "max": 2700
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 161,
+        "title": "Database Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Data Quality Assurance",
+        "salary": {
+          "min": 2900,
+          "max": 4300
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 162,
+        "title": "Usability Testing Coordinator",
+        "experience": "2-5 Years",
+        "companyName": "User Experience Testing",
+        "salary": {
+          "min": 2500,
+          "max": 3800
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 163,
+        "title": "DevOps QA Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Continuous Testing Solutions",
+        "salary": {
+          "min": 3300,
+          "max": 4900
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 164,
+        "title": "Accessibility Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Inclusive Testing Co",
+        "salary": {
+          "min": 2700,
+          "max": 4000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 165,
+        "title": "Cross-Browser Testing Engineer",
+        "experience": "1-2 Years",
+        "companyName": "Compatibility Testing Ltd",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 166,
+        "title": "QA Lead",
+        "experience": "5+ Years",
+        "companyName": "Testing Team Management",
+        "salary": {
+          "min": 4200,
+          "max": 6300
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 167,
+        "title": "Regression Testing Specialist",
+        "experience": "1-2 Years",
+        "companyName": "Stable Software Testing",
+        "salary": {
+          "min": 1900,
+          "max": 2900
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 168,
+        "title": "ETL Testing Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Data Pipeline Testing",
+        "salary": {
+          "min": 3100,
+          "max": 4600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 169,
+        "title": "Localization Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Global Software Testing",
+        "salary": {
+          "min": 2600,
+          "max": 3900
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 170,
+        "title": "Cloud Testing Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Cloud QA Solutions",
+        "salary": {
+          "min": 3000,
+          "max": 4500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 171,
+        "title": "Blockchain Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Decentralized App Testing",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 172,
+        "title": "IoT Testing Engineer",
+        "experience": "1-2 Years",
+        "companyName": "Connected Device Testing",
+        "salary": {
+          "min": 2300,
+          "max": 3400
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      },
+      {
+        "id": 173,
+        "title": "AI/ML Testing Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Machine Learning QA",
+        "salary": {
+          "min": 3500,
+          "max": 5200
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 174,
+        "title": "Test Data Management Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Testing Data Solutions",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 175,
+        "title": "Quality Assurance Consultant",
+        "experience": "5+ Years",
+        "companyName": "QA Strategy & Implementation",
+        "salary": {
+          "min": 4500,
+          "max": 6700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      }
+    ],
+    "Cybersecurity": [
+      {
+        "id": 176,
+        "title": "Cybersecurity Analyst",
+        "experience": "2-5 Years",
+        "companyName": "SecureNet Systems",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 177,
+        "title": "Information Security Specialist",
+        "experience": "5+ Years",
+        "companyName": "CyberGuard Corp",
+        "salary": {
+          "min": 5000,
+          "max": 7500
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 178,
+        "title": "Penetration Tester",
+        "experience": "2-5 Years",
+        "companyName": "EthicalHack Solutions",
+        "salary": {
+          "min": 3500,
+          "max": 5500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 179,
+        "title": "Junior Security Analyst",
+        "experience": "1-2 Years",
+        "companyName": "InfoSec Startup",
+        "salary": {
+          "min": 2000,
+          "max": 3000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 180,
+        "title": "Incident Response Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Cyber Emergency Response",
+        "salary": {
+          "min": 3800,
+          "max": 5700
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 181,
+        "title": "Security Operations Center Analyst",
+        "experience": "1-2 Years",
+        "companyName": "24/7 Security Monitoring",
+        "salary": {
+          "min": 2400,
+          "max": 3600
+        },
+        "jobType": "Part-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 182,
+        "title": "Vulnerability Assessment Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Security Scanning Solutions",
+        "salary": {
+          "min": 3300,
+          "max": 4900
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 183,
+        "title": "Cryptography Specialist",
+        "experience": "5+ Years",
+        "companyName": "Advanced Encryption Systems",
+        "salary": {
+          "min": 4800,
+          "max": 7200
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 184,
+        "title": "Security Architect",
+        "experience": "5+ Years",
+        "companyName": "Enterprise Security Design",
+        "salary": {
+          "min": 5200,
+          "max": 7800
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 185,
+        "title": "Digital Forensics Investigator",
+        "experience": "2-5 Years",
+        "companyName": "Cyber Crime Investigation",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 186,
+        "title": "Security Compliance Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Regulatory Security Solutions",
+        "salary": {
+          "min": 3200,
+          "max": 4800
+        },
+        "jobType": "Full-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 187,
+        "title": "Cloud Security Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Secure Cloud Infrastructure",
+        "salary": {
+          "min": 3900,
+          "max": 5800
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 188,
+        "title": "Network Security Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Network Protection Systems",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 189,
+        "title": "Application Security Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Secure Software Development",
+        "salary": {
+          "min": 3700,
+          "max": 5500
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 190,
+        "title": "Identity and Access Management Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Access Control Solutions",
+        "salary": {
+          "min": 3300,
+          "max": 4900
+        },
+        "jobType": "Full-Time",
+        "city": "Sumgayit"
+      },
+      {
+        "id": 191,
+        "title": "Threat Intelligence Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Cyber Threat Research",
+        "salary": {
+          "min": 3500,
+          "max": 5200
+        },
+        "jobType": "Part-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 192,
+        "title": "Security Awareness Trainer",
+        "experience": "1-2 Years",
+        "companyName": "Cybersecurity Education Co",
+        "salary": {
+          "min": 2200,
+          "max": 3300
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 193,
+        "title": "Malware Analyst",
+        "experience": "2-5 Years",
+        "companyName": "Threat Analysis Laboratory",
+        "salary": {
+          "min": 3600,
+          "max": 5400
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 194,
+        "title": "Risk Assessment Specialist",
+        "experience": "5+ Years",
+        "companyName": "Enterprise Risk Management",
+        "salary": {
+          "min": 4400,
+          "max": 6600
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 195,
+        "title": "Industrial Control Systems Security",
+        "experience": "2-5 Years",
+        "companyName": "Critical Infrastructure Security",
+        "salary": {
+          "min": 3800,
+          "max": 5700
+        },
+        "jobType": "Part-Time",
+        "city": "Ganja"
+      },
+      {
+        "id": 196,
+        "title": "Privacy Officer",
+        "experience": "5+ Years",
+        "companyName": "Data Protection & Privacy",
+        "salary": {
+          "min": 4200,
+          "max": 6300
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 197,
+        "title": "Security Sales Engineer",
+        "experience": "2-5 Years",
+        "companyName": "Cybersecurity Solutions Sales",
+        "salary": {
+          "min": 3400,
+          "max": 5100
+        },
+        "jobType": "Freelance"
+      },
+      {
+        "id": 198,
+        "title": "Blockchain Security Specialist",
+        "experience": "2-5 Years",
+        "companyName": "Decentralized Security Solutions",
+        "salary": {
+          "min": 4000,
+          "max": 6000
+        },
+        "jobType": "Full-Time",
+        "city": "Baku"
+      },
+      {
+        "id": 199,
+        "title": "IoT Security Engineer",
+        "experience": "1-2 Years",
+        "companyName": "Connected Device Security",
+        "salary": {
+          "min": 2800,
+          "max": 4200
+        },
+        "jobType": "Part-Time",
+        "city": "Lankaran"
+      },
+      {
+        "id": 200,
+        "title": "Security Consultant",
+        "experience": "5+ Years",
+        "companyName": "Independent Security Advisory",
+        "salary": {
+          "min": 5000,
+          "max": 7500
+        },
+        "jobType": "Freelance"
+      }
+    ]
+  }
+}

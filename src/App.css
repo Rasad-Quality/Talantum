@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.Toastify__toast {
+  background: hsl(0, 0%, 12%); 
+  color: #fff;
+}
+
+
+.Toastify__toast-icon {
+  color: #fff;
+}
+
+
+.Toastify__close-button {
+  color: #fff;
+  opacity: 0.8;
+}
+.Toastify__close-button:hover {
+  opacity: 1;
+}
+
+
+.Toastify__toast--success {
+  background: #0BA40F; 
+}
+
+.Toastify__toast--error {
+  background: #e74c3c;
+}
+
+.Toastify__toast--info {
+  background: #3498db;
+}
+
+.Toastify__toast--warning {
+  background: #f1c40f;
+}
+
+/* You can also customize the progress bar */
+.Toastify__progress-bar--success {
+  background: hsl(0, 0%, 100%);
+}

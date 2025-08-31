@@ -1,0 +1,83 @@
+.profile-drawer{
+    background-color: hsl(0, 0%, 7%);
+    color: #fff;
+}
+.textarea1 {
+    width: 92%;
+    margin-top: 10px;
+    min-height: 120px;
+    max-height: 300px;
+    padding: 16px;
+    border: 3px solid hsl(124, 60%, 40%);
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    background: hsl(0, 0%, 7%);
+    resize: vertical;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.textarea1:focus {
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 4px rgba(11, 164, 15, 0.15);
+}
+
+
+.skills-container {
+    background: hsl(0, 0%, 7%);
+    border-radius: 12px;
+    padding: 15px;
+    border: 3px solid hsl(124, 60%, 40%);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.skill-btn {
+    transition: all 0.3s ease !important;
+}
+
+.skill-btn:hover {
+    transform: translateY(-5px) !important;
+}
+
+.skill-btn.selected {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba(11, 164, 15, 0.3) !important;
+}
+
+.skill-btn.selected:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 20px rgba(11, 164, 15, 0.5) !important;
+}
+
+/* Animation for skill chips */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.MuiChip-root {
+    animation: slideIn 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+        gap: 6px;
+    }
+}
